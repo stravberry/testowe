@@ -9,23 +9,17 @@ body {
 	line-height: 1.5;
 	color: #fff;
 	background-color: #333;
+	overflow: hidden;
 }
 h1,
 h2 {
 	display: grid;
 	justify-content: center;
 	align-items: center;
+	transition: 0.3s;
 }
-div {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-	border: #fff solid 1px;
-	padding: 10px;
-}
-p {
-	display: grid;
-	justify-content: center;
-	align-items: center;
+h1:hover {
+	color: #fff; 
+	text-decoration: underline;
+	transform: scale(150%);
 }

@@ -11,6 +11,7 @@ body {
   line-height: 1.5;
   color: #fff;
   background-color: #333;
+  overflow: hidden;
 }
 
 h1,
@@ -22,29 +23,13 @@ h2 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
-div {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: center;
-  border: #fff solid 1px;
-  padding: 10px;
-}
-
-p {
-  display: grid;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+h1:hover {
+  color: #fff;
+  text-decoration: underline;
+  -webkit-transform: scale(150%);
+          transform: scale(150%);
 }/*# sourceMappingURL=style.css.map */
