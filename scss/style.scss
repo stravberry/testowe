@@ -1,0 +1,31 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #fff;
+	background-color: #333;
+}
+h1,
+h2 {
+	display: grid;
+	justify-content: center;
+	align-items: center;
+}
+div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	border: #fff solid 1px;
+	padding: 10px;
+}
+p {
+	display: grid;
+	justify-content: center;
+	align-items: center;
+}
